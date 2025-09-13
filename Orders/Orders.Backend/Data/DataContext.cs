@@ -17,6 +17,6 @@ public class DataContext : DbContext
 
         modelBuilder.Entity<Employee>()
             .Property(e => e.Salary)
-            .HasPrecision(18, 2); // ← precisión y escala
+            .HasPrecision(18, 2);
     }
 }
